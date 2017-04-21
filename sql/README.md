@@ -32,24 +32,25 @@ Follow these steps:
 You should see this result:
 
 ```bash
- id |          title          | release_year |          director           
-----+-------------------------+--------------+-----------------------------
-  1 | Birdman                 |         2014 | Alejandro Gonzáles Iñárritu
-  2 | Guardians of the Galaxy |         2014 | James Gunn
-  3 | Mad Max: Fury Road      |         2015 | George Miller
-  4 | Ex Machina              |         2015 | Alex Garland
-  5 | Arrival                 |         2016 | Denis Villeneuve
-  6 | 2001: A Space Odyssey   |         1968 | Stanley Kubrick
-  7 | District 9              |         2009 | Neill Blomkamp
-  8 | The Godfather           |         1972 | Francis Ford Coppola
-  9 | Moonlight               |         2016 | Barry Jenkins
- 10 | Rogue One               |         2016 | Gareth Edwards
- 11 | The Red Shoes           |         1948 | Michael Powell
- 12 | Taxi Driver             |         1976 | Martin Scorsese
- 13 | The Shining             |         1980 | Stanley Kubrick
- 14 | Pulp Fiction            |         1994 | Quentin Tarantino
- 15 | Fargo                   |         1996 | The Coen Brothers
- 16 | There Will Be Blood     |         2007 | Paul Thomas Anderson
+
+ id |          title          | release_year |          director           | awards 
+----+-------------------------+--------------+-----------------------------+--------
+  1 | Birdman                 |         2014 | Alejandro Gonzáles Iñárritu | 
+  2 | Guardians of the Galaxy |         2014 | James Gunn                  | 
+  3 | Mad Max: Fury Road      |         2015 | George Miller               | 
+  4 | Ex Machina              |         2015 | Alex Garland                | 
+  5 | Arrival                 |         2016 | Denis Villeneuve            | 
+  6 | 2001: A Space Odyssey   |         1968 | Stanley Kubrick             | 
+  7 | District 9              |         2009 | Neill Blomkamp              | 
+  8 | The Godfather           |         1972 | Francis Ford Coppola        | 
+  9 | Moonlight               |         2016 | Barry Jenkins               | 
+ 10 | Rogue One               |         2016 | Gareth Edwards              | 
+ 11 | The Red Shoes           |         1948 | Michael Powell              | 
+ 12 | Taxi Driver             |         1976 | Martin Scorsese             | 
+ 13 | The Shining             |         1980 | Stanley Kubrick             | 
+ 14 | Pulp Fiction            |         1994 | Quentin Tarantino           | 
+ 15 | Fargo                   |         1996 | The Coen Brothers           | 
+ 16 | There Will Be Blood     |         2007 | Paul Thomas Anderson        | 
 ```
 
 
