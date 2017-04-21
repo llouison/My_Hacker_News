@@ -1,7 +1,5 @@
 # HOMEWORK: SQL and Hacker News!!
 
-[introduction, clever gifs]
-
 ## 🚀 Completion looks like:
 
 This homework has two parts.
