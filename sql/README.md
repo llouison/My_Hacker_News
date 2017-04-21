@@ -69,7 +69,7 @@ Put your SQL here:
 
 ### Update some movies!
 
-As you can see, there is a column for `awards` in the `movies` table that hasn't been filled in yet. Refer to the w3school sql section on [update](http://www.w3schools.com/Sql/sql_update.asp) to add an award for five movies in the movies table..
+As you can see, there is a column for `awards` in the `movies` table that hasn't been filled in yet. Refer to the w3school sql section on [update](http://www.w3schools.com/Sql/sql_update.asp) to add an award for five movies in the movies table.
 
 Put your SQL here: 
 
