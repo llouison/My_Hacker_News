@@ -4,7 +4,7 @@
 
 We're just going to use a starter sql file to create our database and tables, and get some seed data set up.
 
-- In this lab directory, there is a `movie_db` directory. In there there's a `seed.sql` file. In your terminal, **MAKE SURE you are in the `HW_U02_D05_SQL-And-Hacker-News/sql` directory (maybe by running `pwd`??) and then run run:
+- In this lab directory, there is a `movie_db` directory. In there there's a `seed.sql` file. In your terminal, **MAKE SURE** you are in the `HW_U02_D05_SQL-And-Hacker-News/sql` directory (maybe by running `pwd`??) and then run run:
 
   ```bash
   psql -f seed.sql
