@@ -10,7 +10,7 @@ Check out the [Hackernews API](https://github.com/HackerNews/API). Make sure you
 
 ## Mockup
 
-![mockup](./mockup.jpg)
+![mockup](./assets/mockup.jpg)
 
 ### Deliverables
 
