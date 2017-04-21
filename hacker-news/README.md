@@ -15,6 +15,6 @@ Check out the [Hackernews API](https://github.com/HackerNews/API). Make sure you
 ### Deliverables
 
 1. Your application should render news titles in a scrollbar within a div, on window load.
-2. When the title is clicked, information about the article should display.
+2. When the title is clicked, information about the article should display -- score, the user who added the added, and a link to read the article.
 3. Style, Style it, like never before!
 4. **REMINDER** Commit early! Commit often! No excuse!
