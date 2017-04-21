@@ -55,7 +55,7 @@ You should see this result:
 
 ### Add some movies!
 
-Refer to the w3school sql cheatsheet section on [insert into](http://www.w3schools.com/Sql/sql_insert.asp). Add the `title`, `release_year`, and `` of the last 5 movies you've seen that aren't already in the movies table. 
+Refer to the w3school sql cheatsheet section on [insert into](http://www.w3schools.com/Sql/sql_insert.asp). Add the `title`, `release_year`, and `director` of the last 5 movies you've seen that aren't already in the movies table. 
 
 Put your SQL here: 
 
@@ -68,7 +68,7 @@ Put your SQL here:
 
 ### Update some movies!
 
-As you can see, there is a column for `release_date` in the `movies` table that hasn't been filled in yet. Refer to the w3school sql section on [update](http://www.w3schools.com/Sql/sql_update.asp) to add the release date of your 5 favorite movies in the movies table.
+As you can see, there is a column for `awards` in the `movies` table that hasn't been filled in yet. Refer to the w3school sql section on [update](http://www.w3schools.com/Sql/sql_update.asp) to add the release date of your 5 favorite movies in the movies table.
 
 Put your SQL here: 
 
