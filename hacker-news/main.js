@@ -15,32 +15,50 @@ const news_url = 'https://hacker-news.firebaseio.com/v0/newstories.json?print=pr
 
 const article_url = 'https://hacker-news.firebaseio.com/v0/item/' 
 
-const itemId = 14173021;
+const storyDiv = document.getElementById('story_titles');
 
-function getNewArticles(){
+// fetching the news_url, converting it to json format, then calling the locate titles function
+function getNewStories(){
   fetch(news_url)
     .then(function(response){
       response.json()
-      .then(function(titles){
-        displayTitles(titles);
+      .then(function(ids){
+        locateTitles(ids);
       })
   })
 }
 
-function displayTitles(titles){
-  for (let title of titles) {
-    fetch(`${article_url}${title}.json?print=pretty`)
+// creating a for of loop that fetches each article using the id, converting it to json format, then calling the displaytitle function
+function locateTitles(ids){
+  for (let id of ids) {
+    fetch(`${article_url}${id}.json?print=pretty`)
     .then(function(response){
       response.json()
       .then(function(article){
-        console.log(article)
+        displayTitle(article)
       })
     })
   } 
 }
 
+// for each article, creating a new list item who's innerhtml is the title property in the json object and appending it to the storydiv to be displayed on the dom. Calling the displayinfo function on each title
+function displayTitle(article){
+  // console.log(article);
+  const title = document.createElement('li');
+  title.innerHTML = article.title;
+  storyDiv.appendChild(title);
+  displayInfo(title);
+}
 
+// adding an event listener to each title that when clicked, displays the info and changes the color of the title 
+function displayInfo(title){
+  title.addEventListener('click', function() {
+    console.log('I was clicked');
+    title.style.color = '#828282';
+  })
+}
+
+// calling the getNewStories function once the window loads 
 window.onload = function() {
-    getNewArticles();
-    // displayTitles();
+    getNewStories();
 }
