@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #FF6600;
+    font-family: Verdana, Geneva, sans-serif;
+}
+p{
+    color: #222;
+}
+#title_container{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px;
+}
+h2{
+    font-size: 24px;
+    padding: 5px;
+    color: #222;
+}
+hr{
+    border-top: 1px solid #ccc;
+    width: 500px;
+    margin: 0 auto;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: #222;
+}
+#story_titles, #article{
+    height: 550px;
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    overflow: auto;
+    background: #F6F6EF;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 10px #828282;
+border-radius: 1px;
+background: #F6F6EF;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 1px;
+background: #ccc; 
+box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #999;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0;
+}
