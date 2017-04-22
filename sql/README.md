@@ -62,7 +62,30 @@ Put your SQL here:
 
 ```sql
 
-# SQL goes here!
+INSERT INTO movies
+  (title, release_year, director, awards)
+VALUES
+  ('Inside Out', 2015, 'Pete Docter, Ronnie del Carmen', 'Best Animated Feature Film');
+  
+INSERT INTO movies
+  (title, release_year, director, awards)
+VALUES
+  ('The Big Short', 2015, 'Adam McKay', 'BAFTA Award for Best Screenplay');
+  
+INSERT INTO movies
+  (title, release_year, director, awards)
+VALUES
+  ('The Handmaiden', 2016, 'Park Chan-wook', 'Vulcan Award');
+  
+INSERT INTO movies
+  (title, release_year, director)
+VALUES
+  ('Things We Lost in the Fire', 2007, 'Susanne Bier');
+  
+INSERT INTO movies
+  (title, release_year, director)
+VALUES
+  ('5 to 7', 2014, 'Victor Levin');
 
 ```
 
@@ -75,7 +98,25 @@ Put your SQL here:
 
 ```sql
 
-# SQL goes here!
+UPDATE movies
+SET awards= 'Academy Award for Best Picture'
+WHERE title = 'Birdman';
+
+UPDATE movies
+SET awards= 'Academy Award for Best Original Screenplay'
+WHERE title = 'Pulp Fiction';
+
+UPDATE movies
+SET awards= 'Golden Globe Award for Best Motion Picture – Drama'
+WHERE title = 'Moonlight';
+
+UPDATE movies
+SET awards= 'Academy Award for Best Original Screenplay'
+WHERE title = 'Fargo';
+
+UPDATE movies
+SET awards= 'Academy Award for Best Costume Design'
+WHERE title = 'Mad Max: Fury Road';
 
 ```
 
@@ -87,6 +128,19 @@ Put your SQl here:
 
 ```sql
 
-# SQL goes here!
+DELETE FROM movies
+WHERE title='The Shining';
+
+DELETE FROM movies
+WHERE title='District 9';
+
+DELETE FROM movies
+WHERE title='There Will Be Blood';
+
+DELETE FROM movies
+WHERE title='Taxi Driver';
+
+DELETE FROM movies
+WHERE title='The Red Shoes';
 
 ```
