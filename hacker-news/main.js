@@ -13,19 +13,34 @@ console.log('what\'s new in Hackernews?');
 
 const news_url = 'https://hacker-news.firebaseio.com/v0/newstories.json?print=pretty';
 
+const article_url = 'https://hacker-news.firebaseio.com/v0/item/' 
 
+const itemId = 14173021;
 
 function getNewArticles(){
   fetch(news_url)
     .then(function(response){
       response.json()
-      .then(function(news){
-        console.log(news);
+      .then(function(titles){
+        displayTitles(titles);
       })
   })
+}
+
+function displayTitles(titles){
+  for (let title of titles) {
+    fetch(`${article_url}${title}.json?print=pretty`)
+    .then(function(response){
+      response.json()
+      .then(function(article){
+        console.log(article)
+      })
+    })
+  } 
 }
 
 
 window.onload = function() {
     getNewArticles();
+    // displayTitles();
 }
