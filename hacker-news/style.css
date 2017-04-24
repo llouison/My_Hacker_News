@@ -93,3 +93,40 @@ footer{
     justify-content: center;
     margin: 30px 0;
 }
+
+/*mobile media query*/
+
+@media only screen 
+  and (max-width: 450px) {
+h1{ 
+    font-size: 35px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+    margin-top: 7px;
+}
+#content{
+    flex-direction: column;
+    width:350px;
+}
+#article_container{
+    order: 1;
+}
+#story_container{
+    order: 2;
+}
+#story_titles, #article{
+    height: 300px;
+    width: 300px;
+    margin: 0 25px;
+}
+#article{
+    height: 275px;
+}
+#article h2{
+    font-size: 18px;
+}
+}
