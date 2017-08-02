@@ -1,6 +1,6 @@
 # Hack the world with...
 
-![hackernews](./assets/hackernews.jpg)
+![hackernews](hacker-news/assets/hackernews.jpg)
 
 As a developer you will always have to be up-to-date with industry news. [Hackernews](http://thehackernews.com/) is a wonderful resource for this! It also has a super duper [API](https://github.com/HackerNews/API), which you will use this weekend to build a cool Hackernews app!
 
@@ -10,7 +10,7 @@ Check out the [Hackernews API](https://github.com/HackerNews/API). Make sure you
 
 ## Mockup
 
-![mockup](./assets/mockup.jpg)
+![mockup](hacker-news/assets/mockup.jpg)
 
 ### Deliverables
 
